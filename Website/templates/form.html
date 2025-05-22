@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enter Transaction Details</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo-left">
+      <img src="https://cdn-icons-png.flaticon.com/512/566/566759.png" alt="Shield Icon" class="logo-icon" />
+      <span class="site-title">SecureSwipe</span>
+    </div>
+  </header>
+  
+  <div class="container">
+    <h2>Transaction Details</h2>
+    <form action="/check" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="number" name="age" placeholder="Age" required>
+      <input type="text" name="account" placeholder="Account Number" required>
+      <input type="number" name="amount" placeholder="Transaction Amount" required>
+      <input type="text" name="merchant" placeholder="Merchant" required>
+      <button type="submit">Check for Fraud</button>
+    </form>
+  </div>
+</body>
+</html>
