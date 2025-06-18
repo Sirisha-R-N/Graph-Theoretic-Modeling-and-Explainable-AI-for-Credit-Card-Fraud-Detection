@@ -13,13 +13,17 @@ Transparency: Enhanced model interpretability using XAI methods, crucial for pra
 
 ## Features
 Graph Construction: Transactions and cardholders represented as a bipartite graph.
+
 Fraud Pattern Detection: Identification of complex, hidden relationships in transactional data.
+
 Explainability: Integration of XAI techniques, including LIME, to interpret model decisions.
+
 Scalability: Designed for practical, real-world financial datasets.
+
 Technologies Used:
-Python: Core programming language
-Graph Neural Networks (GNN)
-LIME: For model explanation
-NetworkX: For graph construction and analysis
-Scikit-learn: For machine learning utilities
-HTML/CSS: For visualization and reporting
+- Python: Core programming language
+- Graph Neural Networks (GNN)
+- LIME: For model explanation
+- NetworkX: For graph construction and analysis
+- Scikit-learn: For machine learning utilities
+- HTML/CSS: For visualization and reporting
